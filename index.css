@@ -1,0 +1,76 @@
+body {
+    background-color: #212c7e;
+    background-image: url("../img/wallpaperflare.com_wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+li {
+    list-style: none;
+}
+.header {
+    background-color:aliceblue;
+    opacity: 0.5;
+    height: 80px;
+  }
+  
+  .header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+  }
+
+  .header-list li {
+    float: left;
+    padding: 33px 20px;
+  }
+  
+  .main {
+    padding: 100px 80px;
+    color:black;
+  }
+
+  .lessons {
+    display: flex;
+    gap: 10px;
+  }
+
+  .lesson {
+    display: flex;
+    gap: 10px;
+  }
+
+  .lesson-icon i {
+    font-size: 47px;
+  }
+
+  .lesson-icon {
+    display: flex;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer {
+    background-color: #479cce;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+    height: 70px;
+    padding: 40px;
+  }
+
+  .footer-logo {
+    float: left;
+    font-size: 50px;
+  }
+  
+  .footer-list {
+    float: right;
+  }
+  
+  .footer-list li {
+    padding-bottom: 5px;
+  }
